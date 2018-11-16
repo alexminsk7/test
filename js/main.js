@@ -23,7 +23,7 @@ let question = prompt('Какая статья расходов?');
 appData.expenses[question] = +prompt('Во сколько обойдется?');
 
 let question2 = prompt('Какая статья расходов?');
-appData.expenses[question] = +prompt('Во сколько обойдется?');
+appData.expenses[question2] = +prompt('Во сколько обойдется?');
 console.log(appData);
 
 alert(myMoney / 30);
